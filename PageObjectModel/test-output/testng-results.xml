@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-22T07:45:45 IST" name="Suite" finished-at="2023-06-22T07:46:59 IST" duration-ms="74089">
+    <groups>
+    </groups>
+    <test started-at="2023-06-22T07:45:45 IST" name="Test" finished-at="2023-06-22T07:46:59 IST" duration-ms="74089">
+      <class name="com.PageObjectModel.Scripts.LoginTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582]" started-at="2023-06-22T07:45:45 IST" name="beforeTest" finished-at="2023-06-22T07:46:45 IST" duration-ms="60259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="verifySigninInvalidUserInvalidpass(java.lang.String,java.lang.String)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582]" started-at="2023-06-22T07:46:47 IST" name="verifySigninInvalidUserInvalidpass" data-provider="invalidUserInvalidPassword" finished-at="2023-06-22T07:46:49 IST" duration-ms="2483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ajiabraham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdefg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninInvalidUserInvalidpass -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582]" started-at="2023-06-22T07:46:49 IST" name="takeScreenShotOnFailure" finished-at="2023-06-22T07:46:49 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySigninInvalidUserInvalidpass status=SUCCESS method=LoginTest.verifySigninInvalidUserInvalidpass(java.lang.String,java.lang.String)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifySigninInvalidUserValidpass(java.lang.String,java.lang.String)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582]" started-at="2023-06-22T07:46:50 IST" name="verifySigninInvalidUserValidpass" data-provider="invalidUserValidpassword" finished-at="2023-06-22T07:46:53 IST" duration-ms="2999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondoption]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninInvalidUserValidpass -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582]" started-at="2023-06-22T07:46:53 IST" name="takeScreenShotOnFailure" finished-at="2023-06-22T07:46:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySigninInvalidUserValidpass status=SUCCESS method=LoginTest.verifySigninInvalidUserValidpass(java.lang.String,java.lang.String)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifySigninValidUserInvalidpass(java.lang.String,java.lang.String)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582]" started-at="2023-06-22T07:46:53 IST" name="verifySigninValidUserInvalidpass" data-provider="validUserInvalidPassword" finished-at="2023-06-22T07:46:55 IST" duration-ms="1827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwertyui]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninValidUserInvalidpass -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582]" started-at="2023-06-22T07:46:55 IST" name="takeScreenShotOnFailure" finished-at="2023-06-22T07:46:55 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySigninValidUserInvalidpass status=SUCCESS method=LoginTest.verifySigninValidUserInvalidpass(java.lang.String,java.lang.String)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifySigninValidUserValidpass(java.lang.String,java.lang.String)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582]" started-at="2023-06-22T07:46:55 IST" name="verifySigninValidUserValidpass" data-provider="validUserValidpassword" finished-at="2023-06-22T07:46:59 IST" duration-ms="4229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninValidUserValidpass -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582]" started-at="2023-06-22T07:46:59 IST" name="takeScreenShotOnFailure" finished-at="2023-06-22T07:46:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySigninValidUserValidpass status=SUCCESS method=LoginTest.verifySigninValidUserValidpass(java.lang.String,java.lang.String)[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.PageObjectModel.Scripts.LoginTest@202b0582]" started-at="2023-06-22T07:46:59 IST" name="afterTest" finished-at="2023-06-22T07:46:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.PageObjectModel.Scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
